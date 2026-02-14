@@ -1,18 +1,18 @@
-# Source Engine
-[![GitHub Actions Status](https://github.com/nillerusr/source-engine/actions/workflows/build.yml/badge.svg)](https://github.com/nillerusr/source-engine/actions/workflows/build.yml) [![GitHub Actions Status](https://github.com/nillerusr/source-engine/actions/workflows/tests.yml/badge.svg)](https://github.com/nillerusr/source-engine/actions/workflows/tests.yml)
- Discord: [![Discord Server](https://img.shields.io/discord/672055862608658432.svg)](https://discord.gg/hZRB7WMgGw)
- 
+# Magma Source Engine
 
-Information from [wikipedia](https://wikipedia.org/wiki/Source_(game_engine)):
+ Discord: [![Discord Server](https://img.shields.io/discord/672055862608658432.svg)](https://discord.gg/mAeb6PhzMU)
 
-Source is a 3D game engine developed by Valve.
-It debuted as the successor to GoldSrc with Half-Life: Source in June 2004,
-followed by Counter-Strike: Source and Half-Life 2 later that year.
-Source does not have a concise version numbering scheme; instead, it was released in incremental versions
+Magma Source is a Source engine Branch developed by Primal Stuidoz.
 
-Source code is based on TF2 2018 leak. Don't use it for commercial purposes.
+Source Engine debuted as the successor to GoldSrc [The Engine Half-Life 1 uses] with Half-Life: Source in June 2004,
+followed by Counter-Strike: Source and Half-Life 2 later that year. Source does not have a concise version numbering scheme; instead, it was released in incremental versions
 
-This project is using waf buildsystem. If you have waf-related questions look https://waf.io/book
+Source code is based on TF2 & CSGO 2018 leak. Don't use it for commercial purposes. Distrubiting it out to the public, may result 
+
+# WHAT TO DO WHEN UPGRADING THE ENGINE 
+
+When upgrading the engine for a certain game. Please insert your engine changes & upgrades into this repository.
+Do not add them to the engine code of a games repository. Make sure to be careful when doing certain things.
 
 # Features:
 - Android, OSX, FreeBSD, Windows, Linux( glibc, musl ) support
@@ -31,18 +31,12 @@ This project is using waf buildsystem. If you have waf-related questions look ht
 - Serverbrowser works without steam
 
 # Current tasks
+- Increase Edict Limit
+- Replace the box skybox. With a orb-like dome skybox. Similar to Source 2
 - Rewrite materialsystem for OpenGL render
+- Fix Issues relating to PlayerModels & movable objects clipping though props & other static things.
+- Deferred and clustered rendering
 - dxvk-native support
 - Elbrus port
 - Bink audio support( for video_bink )
 
-# How to Build?
-- [Building instructions(EN)](https://github.com/nillerusr/source-engine/wiki/Source-Engine-(EN))
-- [Building instructions(RU)](https://github.com/nillerusr/source-engine/wiki/Source-Engine-(RU))
-
-# Support me
-BTC: `bc1qnjq92jj9uqjtafcx2zvnwd48q89hgtd6w8a6na`
-
-ETH: `0x5d0D561146Ed758D266E59B56e85Af0b03ABAF46`
-
-XMR: `48iXvX61MU24m5VGc77rXQYKmoww3dZh6hn7mEwDaLVTfGhyBKq2teoPpeBq6xvqj4itsGh6EzNTzBty6ZDDevApCFNpsJ`
