@@ -7,7 +7,7 @@ Magma Source is a Source engine Branch developed by Primal Stuidoz.
 Source Engine debuted as the successor to GoldSrc [The Engine Half-Life 1 uses] with Half-Life: Source in June 2004,
 followed by Counter-Strike: Source and Half-Life 2 later that year. Source does not have a concise version numbering scheme; instead, it was released in incremental versions
 
-Source code is based on TF2 & CSGO 2018 leak. Don't use it for commercial purposes. Distrubiting it out to the public, may result 
+Source code is based on TF2 & CSGO 2018 leak. Don't use it for commercial purposes. Distrubiting it out to the public, may result in legal punishment
 
 # WHAT TO DO WHEN UPGRADING THE ENGINE 
 
